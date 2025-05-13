@@ -12,14 +12,32 @@
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
         }
+
+        #text {
+            color: red;
+            font-size: 1.2em;
+        }
     </style>
 <body>
     <h1>OLÁ MUNDO</h1>
     <h2>Curso de js da curso em vídeo!</h2>
+ 
     <script >
-        window.alert('Minha primeira mensagem')
-        window.confirm("Está gostando?")
-        window.prompt("Qual é o seu nome")
+        window.alert('Minha primeira mensagem');
+       
+
+        const confirming = window.confirm("Está gostando?");
+        const nome = window.prompt("Qual o seu nome?");
+        const p = document.getElementById("mensagem");
+        const anert = document.getElementById("alert");
+        const n1 = Number(window.prompt("Valor numério 1"));
+        const n2 = Number(window.prompt("Valor numério 2"));
+        const soma = document.getElementById("soma");
+        const s = (n1 / n2);
+        document.writeln(`${nome}<br>`);
+        document.writeln(`${s}.toFixed(2).replace('.', ',') <br>`);
+
+
     </script>
 </body>
 </html>
