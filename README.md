@@ -1,11 +1,11 @@
-# Projetos em JS
+# Projets em JS
 
-> Projetos desenvolvidos para aprender front-end (javascript)
+> Projeto desenvolvido para aprender front-end (javascript).
 ---
 
 ## 📖 Sobre
 
-Estes projetos são um exercício prático focado em **JavaScript **, utilizando HTML e CSS para a estrutura e estilo da interface.
+Este projeto é um exercício prático focado em **JavaScript **, utilizando HTML e CSS para a estrutura e estilo da interface.
 
 Feito com o objetivo de consolidar conhecimentos em manipulação de DOM, eventos e estruturas de controle em JS.
 
