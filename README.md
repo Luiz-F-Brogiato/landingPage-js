@@ -1,4 +1,4 @@
-# Projets em JS
+# Projeto em JS
 
 > Projeto desenvolvido para aprender front-end (javascript).
 ---
