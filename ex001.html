@@ -33,11 +33,38 @@
         const n1 = Number(window.prompt("Valor numério 1"));
         const n2 = Number(window.prompt("Valor numério 2"));
         const soma = document.getElementById("soma");
-        const s = (n1 / n2);
+        const s = (n1 ** n2);
         document.writeln(`${nome}<br>`);
-        document.writeln(`${s}.toFixed(2).replace('.', ',') <br>`);
+        document.writeln(`${s}   <br>`);
+        //.toFixed(2).replace('.', ',')
+        
+        console.log(5+3)
+        console.log(5-3)
+        console.log(5/3)
+        console.log(9%2)
+        console.log(5**3)
+        console.log((3+4)/2)
 
+        var n = 3;
+        n **= 10;
 
+        console.log(n)  
+
+        if (8 === '8' || 7 === '8' && 10 == '10') {
+            document.writeln("True")
+        } else {
+            document.writeln("False")
+        }
+        //Primeiro o operador aritmético e depois o lógico
+
+        if(10 - 5 <= 4) {
+            document.writeln('Falso')
+        } else {
+            document.writeln('Verdadeiro')
+        }
+        
+        10 > 7 ?'Aprovado':'Reprovado' // "IF" reduzido
+        
     </script>
 </body>
 </html>
