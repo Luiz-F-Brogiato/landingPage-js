@@ -8,31 +8,53 @@
     <title>Clean Street</title>
 </head>
 
-<body class="bg-[#0E1D0B]">
+<body class="bg-[#0E1D0B] transition-all">
     <header class="bg-[#468F37] h-auto flex justify-end">
         <nav class="p-10">
-            <a href="#" class="text-[#0E1D0B] p-5 font-extrabold">Nossos serviços</a>
-            <a href="#" class="text-[#0E1D0B] p-5 font-extrabold">Quem somos</a>
-            <a href="#" class="text-[#0E1D0B] p-5 font-extrabold">Contato</a>
-            <a href="#" class="text-[#F2994A] p-5 font-extrabold">Seja Colaborador</a>
+            <a href="#" class="text-[#0E1D0B] p-5 font-extrabold hover:text-[1.1rem] transition-all">Nossos serviços</a>
+            <a href="#" class="text-[#0E1D0B] p-5 font-extrabold hover:text-[1.1rem] transition-all">Quem somos</a>
+            <a href="#" class="text-[#0E1D0B] p-5 font-extrabold hover:text-[1.1rem] transition-all">Contato</a>
+            <a href="#" class="text-[#F2994A] p-5 font-extrabold hover:text-[1.1rem] transition-all">Seja Colaborador</a>
         </nav>
     </header>
-    <main class="flex justify-center p-20 items-center">
+    <main class="flex justify-center p-20 items-center flex-col">
         <section class="flex text-[#94D590] flex-col h-auto max-w-85 
         text-balance justify-center">
             <h1 class="font-extrabold text-5xl text-[#EAF7E9]">
                 Nossa missão
             </h1>
             <p class="text-21 pt-5 pb-5 text-justify leading-7">
-                Com equipamento e maquinários mordernos, fazemos a
+                Com equipamento e maquinários mordernos de grande confiabilidade, fazemos a
                 limpeza da sua rua,
                 não deixamos uma folha sequer.</p>
             <img src="/src/img/homemLixeiroSorrindoIA 1.png" alt="homemLixeiroSorrindoIA">
             <button type="submit" class="bg-[#468F37] text-[#EAF7E9] font-extrabold p-3 
-            rounded-md mt-5">Solicitar meu orçamento</button>
+            rounded-md mt-5 hover:p-4 hover:bg-[#072701] hover:cursor-pointer transition-all">Solicitar meu orçamento</button>
             
         </section>
+
+        <section class="flex text-[#94D590] flex-col h-auto max-w-85 
+        text-balance justify-center mt-20">
+            <h1 class="font-extrabold text-5xl text-[#EAF7E9] ">
+                Quem Somos?
+            </h1>
+            <p class="text-21 pt-5 pb-5 text-justify leading-7">
+                A Clean Street é uma empresa especializada em coleta de lixo que atua com eficiência, responsabilidade ambiental e compromisso com a limpeza urbana. Nossa missão é tornar as cidades mais limpas, seguras e sustentáveis por meio de serviços ágeis e confiáveis, 
+                atendendo residências, comércios e indústrias com transparência e respeito ao meio ambiente.</p>
+            <a href=""  class="hover:opacity-75 transition-all ">
+                <img  src="/src/img/lixeiro-oferta.png" alt="homemLixeiroSorrindoIA">
+            </a>
+            
+        </section>
+
+        <section class="flex text-[#94D590] flex-col h-auto max-w-85 
+        text-balance justify-center mt-40">
+        <video src="/src/videos/Clean_Street.mp4" controls></video>
+        <button type="submit" class="bg-[#468F37] text-[#EAF7E9] font-extrabold p-6 
+            rounded-md mt-5 hover:p-7 hover:bg-[#072701] hover:cursor-pointer transition-all">Quero um orçamento personalizado</button>
+        </section>
     </main>
+    <script src="/src/js/index.js"></script>
 </body>
 
 </html>
