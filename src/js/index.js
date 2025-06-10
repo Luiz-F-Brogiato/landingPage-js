@@ -1,0 +1,1 @@
+const quemSomos = document.getElementById('part2');
