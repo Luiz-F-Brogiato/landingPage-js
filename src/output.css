@@ -101,12 +101,8 @@
   }
   img, svg, video, canvas, audio, iframe, embed, object {
     display: block;
-    vertical-align: middle;
   }
-  img, video {
-    max-width: 100%;
-    height: auto;
-  }
+
   button, input, select, optgroup, textarea, ::file-selector-button {
     font: inherit;
     font-feature-settings: inherit;
@@ -241,6 +237,40 @@
   }
   .table {
     display: table;
+  }
+
+  video {
+    padding-bottom: 10vh;
+    margin: auto;
+    width: 60%;
+    height: auto;
+  }
+
+  .cards, spam{
+    flex-wrap: wrap;
+
+  }
+
+  spam:hover {
+    background-color: #204319; 
+    transition: 0.5s  ;
+  }
+
+  body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    width: 100vw;
+  }
+
+  .card {
+    font-style: none;
+    text-align: center;
+    font-size: 2em ;
+    width: max-content;
+    margin: 4px;
+    padding: 20px;
+    border: #020301, 2px, solid;
+    border-radius: 10px;
   }
 
   .clamp, a {
